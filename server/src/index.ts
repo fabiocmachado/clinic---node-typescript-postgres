@@ -1,11 +1,11 @@
-require('express-async-errors');
+import 'express-async-errors';
 import express from 'express';
 import cors from 'cors';
 import pacientesRoutes from './routes/pacientesRoutes';
 import procedimentosRoutes from './routes/procedimentosRoutes';
 
 
-
+''
 const app = express();
 const port = 3333;
 
